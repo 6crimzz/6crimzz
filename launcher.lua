@@ -133,7 +133,7 @@ verify = function(key)
     _G.wl_key = key
 
     spawn(function()
-        loadstring(game:HttpGet(("https://raw.githubusercontent.com/6crimzz/6crimzz/main/launcher.lua"), true))()
+        loadstring(game:HttpGet(("https://raw.githubusercontent.com/6crimzz/6crimzz/main/main.lua"), true))()
     end)
     
     return true
